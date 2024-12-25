@@ -4,7 +4,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build:orders": "nx run orders:build"
+    "build": "npx nx run commerce:build --configuration=production",
+    "serve": "npx nx run commerce:serve --configuration=development"
   },
   "dependencies": {
     "@angular/animations": "~19.0.0",

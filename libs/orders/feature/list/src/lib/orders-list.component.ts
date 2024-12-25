@@ -1,6 +1,6 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { OrdersService } from '@eshop/orders/data';
+import { OrdersService } from '@libs/orders/data';
 
 @Component({
   selector: 'lib-orders-list',
