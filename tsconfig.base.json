@@ -1,0 +1,30 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@libs/orders/data": ["libs/orders/data/src/index.ts"],
+      "@libs/orders/feature/detail": [
+        "libs/orders/feature/detail/src/index.ts"
+      ],
+      "@libs/orders/feature/list": ["libs/orders/feature/list/src/index.ts"],
+      "@libs/orders/model": ["libs/orders/models/src/index.ts"],
+      "@libs/orders/shared": ["libs/orders/shared/src/index.ts"],
+      "@libs/orders/ui": ["libs/orders/ui/src/index.ts"],
+      "@admin/routes": ["apps/admin/src/app/remote-entry/entry.routes.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
